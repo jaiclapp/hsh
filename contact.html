@@ -74,7 +74,7 @@
                     <h2 class="cs-title">Contact Us</h2>
                 </div>
                 <!--Form-->
-                <form class="cs-form" id="cs-form-1750" name="Contact Form" method="post" action="contact.html" netlify>
+                <form class="cs-form" id="cs-form-1750" name="Contact Form" method="post" action="contact.html" data-netlify-recaptcha="true" netlify>
                     <label class="cs-label">
                         Name *
                         <input class="cs-input" required type="text" id="name-1750" name="name" placeholder="John Doe">
@@ -91,6 +91,7 @@
                         Message *
                         <textarea class="cs-input cs-textarea" required name="Message" id="message-1750" placeholder="Hello, I am interested..."></textarea>
                     </label>
+                    <div data-netlify-recaptcha="true"></div>
                     <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
                 </form>
             </div>
