@@ -982,13 +982,7 @@ body {
     left: 50%;
   }
 }
-/* Large Desktop - 1300px */
-@media only screen and (min-width: 81.25rem) {
-  #contact-1750 .cs-label:nth-of-type(2),
-  #contact-1750 .cs-label:nth-of-type(3) {
-    grid-column: span 6;
-  }
-}
+
 /* Largest Desktop - 1920px */
 @media only screen and (min-width: 120rem) {
   #contact-1750 {
@@ -1485,9 +1479,7 @@ body {
   #cs-footer-108 .cs-li:last-of-type {
       margin: 0;
   }
-}
-
-                              
+}             
                               
                
                               
